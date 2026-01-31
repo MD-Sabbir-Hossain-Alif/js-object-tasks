@@ -51,7 +51,7 @@ let myObject = {
 };
 
 console.log("KEY        | VALUE           | TYPE");
-console.log("-------------------------------------");
+console.log("-------------------------------------"); // here i use chatgpt for nice looking but i understand this method(or all syntax of code)
 for (let key in myObject) {
     const value = myObject[key];
     console.log(
