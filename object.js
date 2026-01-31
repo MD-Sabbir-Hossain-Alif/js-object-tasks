@@ -40,6 +40,19 @@ console.log(student.physics.marks); // Output: 30
 
 
 /* ------------------------------ Task Divider ------------------------------ */
+//* Task - 4 Solution:
+//  TODO:  Count the number of properties.
+
+const studentDetails = {
+    name: 'Ariana Grande',
+    age: 21,
+    city: 'Gaibandha',
+    isStudent: true
+};
+console.log(Object.keys(studentDetails).length); // Output: 30
+
+
+/* ------------------------------ Task Divider ------------------------------ */
 //* Task - 5 Solution:
 //  TODO:  Loop through an object and print the key-value pairs with their types
 
